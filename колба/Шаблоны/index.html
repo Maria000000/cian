@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<form method="post" action="/generate">
+    <label for="square">Площадь:</label>
+    <label>
+        <input type="text" name="square"/>
+    </label> <br>
+
+    <label for="subway">Метро:</label>
+    <label>
+        <input type="text" name="subway"/>
+    </label> <br>
+
+    <label for="address">Адрес:</label>
+    <label>
+        <input type="text" name="address"/>
+    </label><br>
+
+    <label for="floor">Этаж:</label>
+    <label>
+        <input type="text" value="1" name="floor"/>
+    </label><br>
+    <label for="floors">Этажность:</label>
+    <label>
+        <input type="text" value="10" name="floors"/>
+    </label><br>
+    <button type="submit">Predict!</button>
+</form>
+</body>
+</html>
